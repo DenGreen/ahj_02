@@ -12,7 +12,7 @@ const collection = document.querySelectorAll('.field_li');
         position = randomCell;
         element = collection[position - 1];
         if(previousElement !== null) previousElement.removeChild(previousElement.lastElementChild); // previousElement.innerHTML = '';
-        element.insertAdjacentHTML('beforeend', '<img src="goblin.png">');
+        element.insertAdjacentHTML('beforeend', '<img src="https://github.com/netology-code/ahj-homeworks/blob/simplification/dom/pic/goblin.png?raw=true">');
         previousElement = element;
     }
  }
